@@ -3,8 +3,8 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-VERIFICATION_TOKEN = ""
-ENDPOINT_URL = ""
+VERIFICATION_TOKEN = "djoijoijfhwuqlkvoidhfosoidjhfohosknohpobpxqar"
+ENDPOINT_URL = "https://ebay-webhook-jdvg.onrender.com"
 
 @app.route("/ebay/account-deletion", methods=["GET", "POST"])
 def account_deletion():
